@@ -10,6 +10,7 @@ function App() {
 
   const calculate = () => {
     try {
+      // eslint-disable-next-line react-hooks/unsupported-syntax
       setValue(eval(value).toString());
     } catch {
       setValue("Error");
